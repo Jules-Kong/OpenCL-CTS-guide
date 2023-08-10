@@ -5,7 +5,7 @@
 * Follow https://github.com/THU-DSP-LAB/llvm-project/blob/main/README.md
 * Then, like
 ```
- git clone https://github.com/KhronosGroup/OpenCL-CTS.git  --- you need reset b57445e [NFC] README.md: fix typos (#1704)
+ git clone https://github.com/KhronosGroup/OpenCL-CTS.git
 
  mkdir OpenCL-CTS/build
  cmake -S OpenCL-CTS -B OpenCL-CTS/build \
@@ -23,3 +23,10 @@
 export CL_ICD_FILENAMES=/path-to-install/lib/libpocl.so
 ```
 * Execute the test binary.
+For example,
+```
+cd build/test_conformance/compiler
+./test_compiler       ---  run all tests under the compiler
+./test_compiler load_program_source    ---  Run the use case named load_program_source under the compiler
+```
+note: run "./test_compiler --help" to get the names of cases.
