@@ -5,7 +5,7 @@
 * Follow https://github.com/THU-DSP-LAB/llvm-project/blob/main/README.md
 * Then, like
 ```
- git clone https://github.com/KhronosGroup/OpenCL-CTS.git
+ git clone https://github.com/KhronosGroup/OpenCL-CTS.git (Use historical version c511ac6)
 
  mkdir OpenCL-CTS/build
  cmake -S OpenCL-CTS -B OpenCL-CTS/build \
